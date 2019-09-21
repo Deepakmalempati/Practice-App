@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <title>Bill Calculator</title>
+    <!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/css/mdb.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+<link rel="stylesheet" href="style.css"> 
+    </head>
+    <body><center>
+        <h1><strong> Maitre D</strong></h1>
+        <table class="tab">
+            <tr>
+                <td colspan="2">
+                    Total <input type="number" id="billamount" placeholder="$0.00" >
+                </td>
+            </tr>
+            <tr>
+                <td>Tip: $<span id="tipamount" >0.00</span></td>
+                <td>Rate %  <input type="number" id="tiprate" placeholder="20.0"><br></td>
+            </tr>
+            <tr>
+                <td colspan="2"> Tax: $<span id="taxamount">0.00</span></td>
+            </tr>
+            <tr>
+                <td>Grand Total: $<span id="totalamount">0.0</span></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button id="calculate" >Calculate</button></td>
+            </tr>
+        </table>
+            
+           <script src="main.js"></script>
+    </center></body>
+</html>
